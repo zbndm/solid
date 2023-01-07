@@ -33,7 +33,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build docs
-        run: pnpm run docs:build
+      # - name: Build docs
+      #   run: pnpm run docs:build
 
       - run: npx wrangler publish
+
